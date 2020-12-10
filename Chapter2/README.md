@@ -124,8 +124,8 @@ There are two projects in this sample. Each needs to be separately registered in
 1. In the app's registration screen, click on the **API permissions** blade in the left to open the page where we add access to the Apis that your application needs.
    - Click the **Add a permission** button and then,
    - Ensure that the **Microsoft APIs** tab is selected.
-   - In the *Commonly used Microsoft APIs* section, click on **Microsoft Graph**
-   - In the **Delegated permissions** section, select the **User.Read** in the list. Use the search box if necessary.
+   - In the *Commonly used Microsoft APIs* section, click on **Azure Resource Management**
+   - In the **Delegated permissions** section, select the **user_improvision** in the list. Use the search box if necessary.
    - Click on the **Add permissions** button at the bottom.
 1. In the app's registration screen, click on the **Expose an API** blade to the left to open the page where you can declare the parameters to expose this app as an Api for which client applications can obtain [access tokens](https://docs.microsoft.com/azure/active-directory/develop/access-tokens) for.
 The first thing that we need to do is to declare the unique [resource](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow) URI that the clients will be using to obtain access tokens for this Api. To declare an resource URI, follow the following steps:
@@ -178,7 +178,7 @@ Open the project in your IDE (like Visual Studio) to configure the code.
 
    - Ensure that the **Microsoft APIs** tab is selected.
    - In the *Commonly used Microsoft APIs* section, click on **Microsoft Graph**
-   - In the **Delegated permissions** section, select the **User.Read**, **User.Read.All** in the list. Use the search box if necessary.
+   - In the **Delegated permissions** section, select the **User.Read** in the list. Use the search box if necessary.
    - Click on the **Add permissions** button at the bottom.
 
 > :warning: The next step requires you to go back to your TodoListAPI registration.
