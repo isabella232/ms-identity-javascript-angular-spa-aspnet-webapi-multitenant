@@ -40,7 +40,7 @@ export class TodoViewComponent implements OnInit {
     });
 
     this.getTodos();
-    this.getUsers();
+    // this.getUsers();
   }
 
   getTodos(): void {

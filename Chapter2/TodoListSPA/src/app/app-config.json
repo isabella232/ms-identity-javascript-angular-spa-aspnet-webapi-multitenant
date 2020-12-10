@@ -1,6 +1,6 @@
 {
   "auth": {
-    "clientId": "Enter the Client Id (aka 'Application ID')",
+    "clientId": "82a8e317-5a99-48ed-ba12-ea64b6998c16",
     "authority": "https://login.microsoftonline.com/common",
     "validateAuthority": true,
     "redirectUri": "http://localhost:4200",
@@ -16,11 +16,11 @@
     "resources": {
       "todoListApi": {
         "resourceUri": "https://localhost:44351/api/todolist",
-        "resourceScope": "Enter the API scopes as declared in the app registration 'Expose an Api' blade in the form of 'api://{clientId}/access_as_user'"
+        "resourceScope": "api://b4318309-b35d-4cdf-9c7a-119a0f9bf7d2/access_as_user"
       },
       "graphApi": {
         "resourceUri": "https://graph.microsoft.com/v1.0/users",
-        "resourceScope": "User.Read.All"
+        "resourceScope": "User.Read"
       }
     }     
 }
